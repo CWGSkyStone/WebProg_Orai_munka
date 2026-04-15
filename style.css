@@ -1,0 +1,31 @@
+/*
+File: index.html
+ Author: Szabó József
+ Copyright: 2026, Szabó József
+ Group: Szoft I/N
+ Date: 2026-04-15
+ Github: https:github.com/CWGSkyStone213
+ Licenc: MIT 
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border: 50px solid #FFA500;
+  box-shadow: 
+    13px 13px 13px red,        
+    inset 13px 13px 13px red; 
+  border-radius: 17px;
+}
